@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de formulário</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <select name="profissao">
+            <option value="Desenvolvedor">Desenvolvedor</option>
+            <option value="Programador">Programador</option>
+            <option value="RH">RH</option>
+            <option value="Professor">Professor</option>
+            <option value="Contador">Contador</option>
+        </select><br>
+        <!-- select é usado para criar uma multipla escolha -->
+
+        <label>
+            <p>nome</p>
+            <input type="text" name="name" placeholder="Digite seu nome"/><br><BR></BR>
+        </label>
+        <label>
+            <p>email</p>
+            <input type="email" name="email" placeholder="Digite seu email"/><br><BR></BR>
+        </label><!--recebe um email(n deixa sem o @jsdfh.com) -->
+        <label>
+            <p>password</p>
+            <input type="password" name="senha" placeholder="Digite sua senha"/><br><BR></BR>
+         </label> <!--recebe uma senha(fica oculto enquanto escreve) -->
+        <label>
+            <p>dia e hr</p>
+            <input type="datetime-local" name="data e hr" placeholder="dia e horário"/><br><BR></BR>
+        </label><!--recebe um dia e hr(tipo um calendáriozinho) -->
+        <label>
+            <p>range</p>
+            <input type="range" name="range" min="0" max="4" placeholder="Digite um numero"/><br><BR></BR>
+        </label> <!--Dá um range q vc escolhe-->
+        <label>
+            <p>escolha um arquivo</p>
+            <input type="file"/>
+        </label><br><br> <!--poe arquivo -->
+        
+        <button type="button">button</button> <!--tem q configurar esse, mas os outrpos sao intuitivos-->
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+
+    </form>
+    
+</body>
+</html>
