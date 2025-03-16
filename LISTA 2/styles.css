@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffcc00, #ff00ff);
+    color: blue;         
+    font-size: 18px;       
+    text-align: justify;   
+  }
+  
+  
+  .botao {
+    background-color: blue; 
+    color: white; 
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .botao:hover {
+    background-color: green;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; 
+    padding: 10px; 
+    width: calc(100% - 40px);   
+    gap: 10px;     
+  }
+  
+  .container > div {
+    flex: 1;       
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  table {
+    border-radius: 5px; 
+    margin: 20px 0;
+  }
+  table, th, td {
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  th, td {
+    padding: 8px 12px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    margin-right: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: blue;
+  }
+  nav {
+    background-color: #f9f9f9; 
+    padding: 10px; 
+  }
+  
+  nav a:hover {
+    color: green; 
+  }
+  
+  
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
